@@ -48,6 +48,66 @@ nav ul li{
 #click{
     display: none;
 }
+body{
+    background: #ededed;
+}
+.footer{
+    padding: 40px 0;
+    background: #1b1b1b;
+    width: 100%;
+}
+.footer .social{
+    padding-bottom: 25px;
+    text-align: center;
+    color: #4b4c4d;
+}
+.footer .social a{
+    font-size: 24px;
+    color: #fff;
+    border: 1px solid #fff;
+    height: 40px;
+    width: 40px;
+    line-height: 38px;
+    display: inline-block;
+    justify-items: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.footer .social a:hover{
+    opacity: 0.9;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul a{
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer ul li a:hover{
+    opacity: 1;
+}
+.footer .copyright{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #aaa;
+}
+section{
+    bottom: 0;
+    position: fixed;
+}
 @media (max-width:940px){
     nav .menu-btn i{
         display: block;
@@ -81,5 +141,11 @@ nav ul li a.active{
     background: none;
     color: cyan;
 
+}
+.footer ul{
+    font-size: 13px;
+}
+.footer .copyright{
+    font-size: 10px;
 }
 }
